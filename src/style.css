@@ -9,4 +9,67 @@ body {
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
   line-height: 1.2;
+  margin: 16px;
+  background: #f0ece2; 
+  
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 44px;
+}
+
+footer {
+  font-size: 14px;
+}
+
+h1, footer {
+  text-align: center;
+}
+
+select {
+  display: clock;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: 'Outfit', sans-serif;
+  opacity: 0.7;
+  font-size: 18px;
+  margin: 0 0 24px;
+}
+.container {
+  max-width: 600px;
+  margin: 16px auto;
+  background: white;
+  padding: 60px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2)
+}
+
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px, 0;
+  border-bottom: 2px dashed #e2e6f0;
+}
+
+.city:last-child {
+  border: none;
+}
+.date {
+  opacity: 0.8;
+}
+
+.time {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
 }
