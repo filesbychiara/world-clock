@@ -65,7 +65,8 @@ setInterval(updateTime, 1000);
     ${cityTime.format("h:mm:ss")}
   <small>${cityTime.format("A")}</small>
   </div>
-  </div>`;
+  </div>
+  <p><a href="/">Back to all cities</a><p>`;
 }
 
 

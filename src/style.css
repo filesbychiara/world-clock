@@ -28,6 +28,20 @@ h1, footer {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
 select {
   display: clock;
   width: 100%;
@@ -71,6 +85,11 @@ select {
   font-size: 18px;
 }
 
+
 footer {
   font-size: 14px;
+}
+
+footer a:hover {
+  color: #8e9ec5 ;
 }
