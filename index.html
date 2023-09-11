@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock - Chiara</title>
   </head>
   <body>
@@ -19,23 +21,30 @@
         </option>
       </select>
 
-      <div class="city">
+      <div class="city" id="los-angeles">
         <div>
           <h2>Los Angeles</h2>
-          <div class="date">#</div>
+          <div class="date"></div>
         </div>
-        <div class="time"># <small>AM</small></div>
-        <!-- <h2>Sydney</h2>
-        <div class="date">#</div>
-        <div class="time">#</div>
-        <h2>Tokyo</h2>
+        <div class="time"></div>
+        </div>
+
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+          </div>
+
+          
+        <!-- <h2>Tokyo</h2>
         <div class="date">#</div>
         <div class="time">#</div>
         <h2>Paris</h2>
         <div class="date">#</div>
         <div class="time">#</div> -->
       </div>
-    </div>
       <footer>
       Coded by <a href="https://filesbychiara.netlify.app/" target="_blank">Chiara</a> /
       <a href="https://github.com/filesbychiara/world-clock" target="_blank">Open sourced</a>

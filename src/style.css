@@ -23,9 +23,6 @@ h2 {
   font-size: 44px;
 }
 
-footer {
-  font-size: 14px;
-}
 
 h1, footer {
   text-align: center;
@@ -46,15 +43,15 @@ select {
   margin: 16px auto;
   background: white;
   padding: 60px;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2)
+  box-shadow: 0px 5px 15px 0px rgba(100, 100, 111, 0.2)
 }
 
 
 .city {
+  border-bottom: 2px dashed #e2e6f0;
   display: flex;
   justify-content: space-between;
-  margin: 24px, 0;
-  border-bottom: 2px dashed #e2e6f0;
+  padding: 32px 0;
 }
 
 .city:last-child {
@@ -65,11 +62,15 @@ select {
 }
 
 .time {
-  font-size: 35px;
+  font-size: 50px;
   font-weight: 700;
+  vertical-align: middle;
 }
 
 .time small {
   font-size: 18px;
-  vertical-align: middle;
+}
+
+footer {
+  font-size: 14px;
 }
